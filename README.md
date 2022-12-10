@@ -1,6 +1,9 @@
 # spring-security-study
 🔒 Spring Security 공부하기
 
+### 개념
+- [Spring Security 아키텍처]([url](https://spring.io/guides/topicals/spring-security-architecture))
+
 ### OAuth2
 - [ ] OAuth2 인증
 
