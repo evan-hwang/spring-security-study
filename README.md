@@ -7,7 +7,9 @@
 ### OAuth2
 - [ ] OAuth2 인증
 - [ ] oauth2Login, authorizeRequests 순서
-- [ ] oauth2Login 인증 처리 중 발생한 에러 
+- [ ] oauth2Login 인증 처리 중 발생한 에러
+  - OAuth2AuthenticationSuccessHandler 내부에서 AuthenticationException 또는 AccessDeniedException 던지는게 맞나? 던진다면 어떻게 잡지?
+  - Authentication 객체 자체가 넘어온다는건 이미 인증 처리 됐다는 것
 
 ### 토큰 인증
 - [ ] JWT 토큰 베이스 인증 처리
