@@ -10,6 +10,9 @@
 - [ ] oauth2Login 인증 처리 중 발생한 에러
   - OAuth2AuthenticationSuccessHandler 내부에서 AuthenticationException 또는 AccessDeniedException 던지는게 맞나? 던진다면 어떻게 잡지?
   - Authentication 객체 자체가 넘어온다는건 이미 인증 처리 됐다는 것
+  - oauth2Login에서는 `DefaultOAuth2UserService` 자체가 `UserDetailsService`를 대체한다.
+  - `DefaultOAuth2UserService`에서 사용자 세부 정보 조회할 때부터 에러를 날리면되지 않나? `AuthenticationProvider` 같은 역할은 무엇인가
+  - 요청은 MVC 계층에 도달하기 전에 Security 프레임워크에 의해 거부되므로 @ControllerAdvice여기서는 옵션이 아닙니다.
 
 ### 토큰 인증
 - [ ] JWT 토큰 베이스 인증 처리
