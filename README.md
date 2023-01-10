@@ -20,6 +20,11 @@
   - MicroService 종단 간은 JWT 토큰 필터링을 하지 않기 위함
   - AuthorizeRequests 로 권한 체크 시 permitAll 설정이랑은 관계 없음
   - 참고 (https://spring.io/guides/topicals/spring-security-architecture)
+  
+### Spring 필터 구조 완벽 정리
+- [ ] Filter 구조
+  - doFilter, doFilterInternal
+  - Filter와 Interceptor
 
 ## 참고
 - [Deeplify 블로그](https://deeplify.dev/back-end/spring/oauth2-social-login)
