@@ -25,6 +25,7 @@
 - [ ] Filter 구조
   - doFilter, doFilterInternal
   - [x] [Filter와 Interceptor](https://mangkyu.tistory.com/173)
+  - [x] [필터(Filter)가 스프링 빈 등록과 주입이 가능한 이유](https://mangkyu.tistory.com/221)
 
 ## 참고
 - [Deeplify 블로그](https://deeplify.dev/back-end/spring/oauth2-social-login)
