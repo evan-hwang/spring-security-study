@@ -45,3 +45,4 @@
 - [Deeplify 블로그](https://deeplify.dev/back-end/spring/oauth2-social-login)
 - [Callicoder 블로그](https://www.callicoder.com/spring-boot-security-oauth2-social-login-part-1/)
 - [Spring Security OAuth2 Login Flow](https://jyami.tistory.com/121)
+- [JWT 블랙리스트 관리 잘해놓은 블로그](https://wnwngus.tistory.com/65?category=894390)
