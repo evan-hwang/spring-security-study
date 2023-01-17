@@ -3,6 +3,8 @@
 
 ### 개념
 - [Spring Security 아키텍처]([url](https://spring.io/guides/topicals/spring-security-architecture))
+- [ ] CSRF
+- [ ] CORS
 
 ### OAuth2
 - [ ] OAuth2 인증
@@ -36,7 +38,8 @@
   - 참고자료
     - 필터 체인을 특정 endpoint와 엮기 (https://www.springcloud.io/post/2022-02/spring-security-match-to-specific-requests/#gsc.tab=0)
     - How to apply Spring Security filter only on secured endpoints? (https://stackoverflow.com/questions/36795894/how-to-apply-spring-security-filter-only-on-secured-endpoints)
-
+- [ ] web.ignoring
+- [ ] antMatcher
 
 ## 참고
 - [Deeplify 블로그](https://deeplify.dev/back-end/spring/oauth2-social-login)
