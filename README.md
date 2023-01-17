@@ -38,7 +38,7 @@
   - 참고자료
     - 필터 체인을 특정 endpoint와 엮기 (https://www.springcloud.io/post/2022-02/spring-security-match-to-specific-requests/#gsc.tab=0)
     - How to apply Spring Security filter only on secured endpoints? (https://stackoverflow.com/questions/36795894/how-to-apply-spring-security-filter-only-on-secured-endpoints)
-- [ ] web.ignoring
+- [ ] [web.ignoring](https://ohtaeg.tistory.com/11)
 - [ ] antMatcher
 
 ## 참고
